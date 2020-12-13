@@ -1,0 +1,60 @@
+{
+  "banner": [
+    {
+      "id": 123,
+      "title": "WITH OUR REWARDS PROGRAMME",
+      "pretitle": "Start saving",
+      "description": "Excepteur sint occaecat cupidatat non proident.",
+      "type": "banner",
+      "image": "https://cdn.getwaterfit.co.uk/static/files/images/develop/free-water-saving-kit.png",
+      "buttonText": "START SAVING",
+      "buttonPath": "/saving"
+    }
+  ],
+  "usage": [
+    {
+      "id": 2,
+      "description": "That amount of water would fill 50 double decker buses",
+      "type": "info-dynamic",
+      "icon": "https://cdn.getwaterfit.co.uk/static/files/gwf/tap.svg",
+      "saving": { "water": 537219, "money": 1987.17 }
+    },
+    {
+      "id": 14,
+      "description": "of energy to heat water a year",
+      "type": "info-dynamic",
+      "icon": "https://cdn.getwaterfit.co.uk/static/files/gwf/energy.svg",
+      "saving": { "energy": 15748, "money": 958.43 }
+    }
+  ],
+  "play": [
+    {
+      "id": 1,
+      "title": "Lorem ipsum 1",
+      "description": "Tailored for your home, delivered directly to you",
+      "icon": "https://cdn.getwaterfit.co.uk/static/files/gwf/shower.svg",
+      "saving": { "money": 250 }
+    },
+    {
+      "id": 2,
+      "title": "Lorem ipsum 2",
+      "description": "Tailored for your home, delivered directly to you",
+      "icon": "https://cdn.getwaterfit.co.uk/static/files/gwf/sink.svg",
+      "saving": { "water": 6, "money": 300 }
+    },
+    {
+      "id": 3,
+      "title": "Lorem ipsum 3",
+      "description": "Tailored for your home, delivered directly to you",
+      "icon": "https://cdn.getwaterfit.co.uk/static/files/gwf/toilet.svg",
+      "saving": { "water": 12, "money": 500 }
+    },
+    {
+      "id": 4,
+      "title": "Lorem ipsum 4",
+      "description": "Tailored for your home, delivered directly to you",
+      "icon": "https://cdn.getwaterfit.co.uk/static/files/gwf/boiler.svg",
+      "saving": { "water": 12, "money": 250 }
+    }
+  ]
+}

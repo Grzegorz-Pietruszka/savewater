@@ -1,0 +1,52 @@
+@import 'src/styles/styles';
+
+nav {
+  background-color: $ice-blue;
+
+  .navbar-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 0;
+    width: 100%;
+
+    @include lg {
+      flex-direction: row;
+      padding: 25px 10%;
+    }
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+
+    @include lg {
+      margin-top: 0;
+      flex-direction: row;
+    }
+
+    li {
+      font-weight: bolder;
+      font-size: 1em;
+      padding: 0 20px;
+
+      a {
+        text-decoration: none;
+        color: $dark-blue;
+
+        &:hover {
+          border-bottom: 2px solid $light-blue;
+        }
+      }
+    }
+  }
+}

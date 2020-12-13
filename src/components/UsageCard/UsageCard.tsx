@@ -1,10 +1,7 @@
 import React, {FC} from 'react';
-import {IUsages} from "../../interfacesTS/interfaces";
+import {IUsageCardProps} from "../../interfacesTS/interfaces";
 import './UsageCard.scss'
 
-interface IUsageCardProps {
-    usage: IUsages
-}
 
 const UsageCard: FC<IUsageCardProps> = ({usage}) => {
     const {description, icon, saving} = usage;

@@ -9,9 +9,7 @@ export interface IBanner {
     buttonPath: string
 }
 
-// change to usage interface
-
-export interface IUsages {
+export interface IUsage {
     id: number,
     description: string,
     type: string,
@@ -19,7 +17,7 @@ export interface IUsages {
     saving: { [key: string]: number | undefined }
 }
 
-export interface IChallenges {
+export interface IChallenge {
     id: number,
     title: string,
     description: string,
@@ -27,9 +25,22 @@ export interface IChallenges {
     saving: { [key: string]: number | undefined }
 }
 
-// change to challenge
 export interface IContextProps {
     banner: IBanner,
-    usages: IUsages[],
-    challenges: IChallenges[]
+    usages: IUsage[],
+    challenges: IChallenge[]
+}
+
+export interface IIcons {
+    [key: string]: string
+}
+
+export interface IServerResponse {
+    banner: IBanner[],
+    usage: IUsage[],
+    play: IChallenge[]
+}
+
+export interface IUsageCardProps {
+    usage: IUsage
 }

@@ -1,10 +1,10 @@
 import React, {FC} from 'react';
-import {IChallenges} from "../../interfacesTS/interfaces";
+import {IChallenge} from "../../interfacesTS/interfaces";
 import icons from "../../icons/icons";
 import './ImproveCards.scss'
 
 interface IImproveCardProps {
-    challenge: IChallenges
+    challenge: IChallenge
 }
 
 const ImproveCard: FC<IImproveCardProps> = ({challenge}) => {

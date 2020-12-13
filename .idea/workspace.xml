@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d8949d0-d24b-468d-900f-7a010eba8281" name="Default Changelist" comment="" />
+    <list default="true" id="7d8949d0-d24b-468d-900f-7a010eba8281" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Context.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Banner/Banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/Banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Donate/Donate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Donate/Donate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ImproveCard/ImproveCards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImproveCard/ImproveCards.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ImproveCard/ImproveCards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImproveCard/ImproveCards.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UsageCard/UsageCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UsageCard/UsageCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/icons.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/icons.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesTS/interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesTS/interfaces.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lTYCxkDV6KFu9WotXcCLmLJ2kO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607622426409</updated>
-      <workItem from="1607622428025" duration="68966000" />
+      <workItem from="1607622428025" duration="70994000" />
     </task>
     <servers />
   </component>
@@ -60,10 +75,10 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="621" y="338" key="EditFileWatcherDialog/0.25.1920.1055/-1920.-165.1920.1175@0.25.1920.1055" timestamp="1607865249491" />
-    <state x="104" y="103" width="1505" height="831" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1607886723867">
+    <state x="104" y="103" width="1505" height="831" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1607894611525">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="104" y="103" width="1505" height="831" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1607886723867" />
+    <state x="104" y="103" width="1505" height="831" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1607894611525" />
     <state x="119" y="105" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1920.1055/-1920.-165.1920.1175@0.25.1920.1055" timestamp="1607628937021" />
     <state x="915" y="104" width="564" height="1006" key="dock-window-1" timestamp="1607730956366">
       <screen x="0" y="25" width="1680" height="1025" />
@@ -73,10 +88,10 @@
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="865" y="150" width="641" height="1006" key="dock-window-2/0.25.1680.1025@0.25.1680.1025" timestamp="1607800182248" />
-    <state x="579" y="290" width="568" height="508" key="find.popup" timestamp="1607891862875">
+    <state x="338" y="195" width="1023" height="814" key="find.popup" timestamp="1607893076075">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="579" y="290" width="568" height="508" key="find.popup/0.25.1680.1025@0.25.1680.1025" timestamp="1607891862875" />
+    <state x="338" y="195" width="1023" height="814" key="find.popup/0.25.1680.1025@0.25.1680.1025" timestamp="1607893076075" />
     <state x="662" y="298" width="596" height="508" key="find.popup/0.25.1920.1055/-1920.-165.1920.1175@0.25.1920.1055" timestamp="1607870067185" />
     <state x="577" y="259" width="766" height="696" key="search.everywhere.popup" timestamp="1607882554910">
       <screen x="0" y="25" width="1920" height="1055" />

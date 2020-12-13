@@ -1,17 +1,19 @@
 import React, {createContext, FC, useContext, useEffect, useState} from "react";
-import {IBanner, IContextProps, IChallenges, IUsages} from "./interfacesTS/interfaces";
+import {IBanner, IChallenge, IContextProps, IServerResponse, IUsage} from "./interfacesTS/interfaces";
 import pageData from "./page.json";
+
+const url = 'https://cdn.getwaterfit.co.uk/static/files/test/page.json\n';
 
 const AppContext = createContext<IContextProps>({} as IContextProps);
 
 const AppProvider: FC = ({children}: any) => {
     const [banner, setBanner] = useState<IBanner>({} as IBanner);
-    const [usages, setUsages] = useState<IUsages[]>([] as IUsages[]);
-    const [challenges, setChallenges] = useState<IChallenges[]>([] as IChallenges[]);
+    const [usages, setUsages] = useState<IUsage[]>([] as IUsage[]);
+    const [challenges, setChallenges] = useState<IChallenge[]>([] as IChallenge[]);
 
-    const fetchData = () => {
-        const data = pageData;
-        setBanner(data.banner[0])
+    const fetchData = async () => {
+        const data: IServerResponse = await fetch(url).then((response) => response.json());
+        setBanner(pageData.banner[0])
         setUsages(data.usage);
         setChallenges(data.play)
     }
@@ -26,7 +28,6 @@ const AppProvider: FC = ({children}: any) => {
             {children}
         </AppContext.Provider>
     );
-
 }
 
 const useGlobalContext = () => {

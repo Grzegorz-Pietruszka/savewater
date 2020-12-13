@@ -1,8 +1,4 @@
-
-interface IIcons {
-    [key: string] : string
-}
-
+import {IIcons} from '../interfacesTS/interfaces'
 const icons: IIcons = {
     logo: 'https://cdn.getwaterfit.co.uk/static/files/logos/www-color.svg\n',
     droplet: 'https://cdn.getwaterfit.co.uk/static/files/gwf/droplet.svg',

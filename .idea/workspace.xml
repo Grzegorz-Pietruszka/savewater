@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7d8949d0-d24b-468d-900f-7a010eba8281" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Context.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Banner/Banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/Banner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Donate/Donate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Donate/Donate.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ImproveCard/ImproveCards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImproveCard/ImproveCards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ImproveCard/ImproveCards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImproveCard/ImproveCards.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UsageCard/UsageCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UsageCard/UsageCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons/icons.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/icons.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfacesTS/interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesTS/interfaces.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +43,23 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607622426409</updated>
-      <workItem from="1607622428025" duration="70994000" />
+      <workItem from="1607622428025" duration="71575000" />
     </task>
     <servers />
   </component>
@@ -66,6 +76,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="304" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607895714493">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state x="304" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1607895714493" />
     <state x="613" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607725725074">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
@@ -75,6 +89,22 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="621" y="338" key="EditFileWatcherDialog/0.25.1920.1055/-1920.-165.1920.1175@0.25.1920.1055" timestamp="1607865249491" />
+    <state width="1659" height="272" key="GridCell.Tab.0.bottom" timestamp="1607895780584">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state width="1659" height="272" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1607895780584" />
+    <state width="1659" height="272" key="GridCell.Tab.0.center" timestamp="1607895780583">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state width="1659" height="272" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1607895780583" />
+    <state width="1659" height="272" key="GridCell.Tab.0.left" timestamp="1607895780582">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state width="1659" height="272" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1607895780582" />
+    <state width="1659" height="272" key="GridCell.Tab.0.right" timestamp="1607895780583">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state width="1659" height="272" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1607895780583" />
     <state x="104" y="103" width="1505" height="831" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1607894611525">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
